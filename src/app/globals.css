@@ -19,9 +19,12 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right top, #250537, #38045e, #490389, #5506b8, #5a12eb);
 }
 
 * {
